@@ -16,11 +16,11 @@
 
 <body class="">
 
-@include('components.navbar')
+@include('layouts.navbar')
 
 @yield('content')
 
-@include('components.footer')
+@include('layouts.footer')
 
 
     <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
